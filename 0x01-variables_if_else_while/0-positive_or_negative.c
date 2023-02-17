@@ -1,7 +1,8 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
- * main - A programm that check if the number is negative or not
+ * main - A program that checks if a random numis negative,zero,or positive.
  * Return: 0 (Success)
  */
 int main(void)
