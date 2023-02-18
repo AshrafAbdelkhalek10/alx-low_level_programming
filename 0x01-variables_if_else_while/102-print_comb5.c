@@ -22,13 +22,12 @@ int main(void)
 			putchar(' ');
 			putchar(c + '0');
 			putchar(d + '0');
-			if (i < 99)
+			if (i < 98)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
-	/*putchar('\n');*/
 	return (0);
 }
