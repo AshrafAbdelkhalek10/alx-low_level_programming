@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio>
 /**
  * print_to_98 - to print to 98
  * @n: Parameter
