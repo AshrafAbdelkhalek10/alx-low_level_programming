@@ -1,4 +1,5 @@
-#include "main.h"
+#include"main.h"
+
 /**
  * print_rev - prints a string in reverse
  *
@@ -6,17 +7,17 @@
  *
  * Return: Nothing
 */
+
 void print_rev(char *s)
 {
-	int i;
-	int j;
+	int index;
 
-	for (i = 0; s[i] != '\0'; i++)
-		continue;
-	for (j = i; j >= 0; j--)
-	{
-		_putchar(s[j]);
+	/*finds the length of string without null character*/
+	for (index = 0; s[index] != '\0'; ++index)
+		;
 
-	}
+	/*print char from the last index as you decrement*/
+	for (--index; index >= 0; --index)
+		_putchar(s[index]);
 	_putchar('\n');
 }
