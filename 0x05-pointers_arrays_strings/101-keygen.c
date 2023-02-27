@@ -15,7 +15,8 @@ int main(void) {
   }
   password[PASSWORD_LEN] = '\0';
 
-  printf("Tada! Congrats");
+  printf("Generated Password: %s\n", password);
+  printf("Tada! Congrats\n");
 
   return 0;
 }
